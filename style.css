@@ -354,8 +354,8 @@ hero-section .container {
 /* Sunil Image Backdrop Circle */
 .hero-image-container {
   position: relative;
-  width: 540px;
-  height: 420px;
+  width: 620px;
+  height: 440px;
   margin-bottom: 36px;
   display: flex;
   justify-content: center;
@@ -365,9 +365,9 @@ hero-section .container {
 .hero-image-bg {
   position: absolute;
   bottom: 0;
-  width: 400px;
-  height: 200px; /* Semi-circle */
-  border-radius: 200px 200px 0 0;
+  width: 460px;
+  height: 230px; /* Semi-circle */
+  border-radius: 230px 230px 0 0;
   background-color: var(--accent-color);
   z-index: 1;
   left: 50%;
@@ -377,10 +377,10 @@ hero-section .container {
 .hero-avatar {
   position: relative;
   z-index: 2;
-  width: 520px; /* Person avatar is wider than the background shape to stand out */
+  width: 620px; /* Person avatar is wider than the background shape to stand out */
   height: auto;
   object-fit: contain;
-  transform: translateY(15px);
+  transform: translateY(0); /* Aligned flat with shape at bottom container edge */
   border-radius: 0; /* No rounding cutoff */
   filter: grayscale(100%) contrast(1.05) brightness(0.95); /* Grayscale styling matching reference design */
 }
@@ -1385,21 +1385,22 @@ footer-section {
   }
   
   .hero-image-container {
-    width: 380px;
-    height: 320px;
+    width: 420px;
+    height: 350px;
   }
   
   .hero-image-bg {
-    width: 280px;
-    height: 140px;
-    border-radius: 140px 140px 0 0;
+    width: 320px;
+    height: 160px;
+    border-radius: 160px 160px 0 0;
     left: 50%;
     transform: translateX(-50%);
   }
   
   .hero-avatar {
-    width: 380px; /* Person is wider than the background shape on mobile as well */
+    width: 420px; /* Person is wider than the background shape on mobile as well */
     border-radius: 0;
+    transform: translateY(0); /* Aligned flush at bottom */
   }
   
   .services-grid {
