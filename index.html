@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunil - UI/UX Designer & Portfolio</title>
+  <meta name="description" content="Sunil is a skilled UI/UX Designer and Frontend Developer. Explore my design services, work experience, and premium mobile/web portfolio projects.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar Component -->
+  <nav-bar id="navbar">
+    <div class="container">
+      <div class="nav-links left">
+        <a href="#hero" class="nav-link active" id="nav-home">Homepage</a>
+        <a href="#about" class="nav-link" id="nav-about">About</a>
+        <a href="#services" class="nav-link" id="nav-services">Services</a>
+      </div>
+      
+      <a href="#hero" class="logo" id="site-logo">Sk.<span>Design</span></a>
+      
+      <div class="nav-links right">
+        <a href="#experience" class="nav-link" id="nav-experience">Experience</a>
+        <a href="#portfolio" class="nav-link" id="nav-portfolio">Portfolio</a>
+        <a href="#contact" class="nav-link" id="nav-contact">Contact</a>
+      </div>
+
+      <div class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle Navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav-bar>
+
+  <!-- Hero Section Component -->
+  <hero-section id="hero">
+    <div class="container">
+      <!-- Left Testimonial Panel -->
+      <div class="hero-left-panel">
+        <div class="testimonial-card">
+          <span class="quote-icon">“</span>
+          <p class="testimonial-text">Sunil is a very skilled product designer. He has built many successful products. Highly Recommended!</p>
+        </div>
+      </div>
+
+      <!-- Center Avatar & Actions -->
+      <div class="hero-center">
+        <div class="hero-hello-wrapper">
+          <div class="hero-hello-pill">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+            </svg>
+            Hello
+          </div>
+        </div>
+
+        <h1 class="hero-title">
+          <!-- Squiggles SVGs -->
+          <svg class="hero-squiggle-left" viewBox="0 0 54 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.5 15.5C10.5 8.5 25.5 -2.5 37.5 4.5C49.5 11.5 50.5 25.5 39.5 35.5C28.5 45.5 14.5 40.5 8.5 32.5C2.5 24.5 1.5 16.5 6.5 12.5" stroke="#00E5BC" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          I'm <span class="highlight">Sunil</span>,<br>UI/UX Designer
+          <svg class="hero-squiggle-right" viewBox="0 0 44 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.5 2.5C7.5 7.5 18.5 20.5 32.5 18.5C46.5 16.5 42.5 5.5 34.5 2.5C26.5 -0.5 14.5 6.5 10.5 14.5" stroke="#00E5BC" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </h1>
+
+        <div class="hero-image-container">
+          <div class="hero-image-bg"></div>
+          <img src="assets/hero-sunil.png" alt="Sunil Portrait" class="hero-avatar">
+        </div>
+
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn-primary" id="hero-portfolio">
+            Portfolio
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+          <a href="#contact" class="btn-secondary" id="hero-hire">Hire Me</a>
+        </div>
+      </div>
+
+      <!-- Right Experience / Stars Panel -->
+      <div class="hero-right-panel">
+        <div class="stats-card">
+          <div class="stats-stars">
+            <!-- 5 Stars SVGs -->
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFA800"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFA800"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFA800"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFA800"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFA800"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <div class="stats-number">5 Stars</div>
+          <div class="stats-label">Rating</div>
+        </div>
+
+        <div class="stats-card">
+          <div class="stats-number">5 Years</div>
+          <div class="stats-label">Experience</div>
+        </div>
+      </div>
+    </div>
+  </hero-section>
+
+  <!-- About Section Component -->
+  <about-section id="about" class="section-padding">
+    <div class="container">
+      <div class="about-card">
+        <div class="about-img-wrapper">
+          <img src="assets/about-sunil.png" alt="Sunil analyzing designs on a laptop" class="about-img">
+        </div>
+        <div class="about-content">
+          <p class="about-tagline">A Bit</p>
+          <h2 class="about-title">About <span class="highlight">me</span></h2>
+          <p class="about-desc">
+            I'm a dedicated UI/UX Designer and Developer based in India, with 5 years of industry experience. I specialize in turning user problems into simple, beautiful, and intuitive solutions. My approach blends creativity with tech skills to deliver clean designs that perform exceptionally well.
+          </p>
+          <p class="about-desc">
+            Over the years, I've had the opportunity to collaborate with various fast-paced teams, designing digital interfaces that are polished, cohesive, and user-centered. Let's build something exceptional together!
+          </p>
+        </div>
+      </div>
+    </div>
+  </about-section>
+
+  <!-- Services Section Component -->
+  <services-section id="services" class="section-padding">
+    <div class="container">
+      <div class="services-title-wrapper">
+        <h2 class="services-title">My <span class="highlight">Services</span></h2>
+      </div>
+
+      <div class="services-grid" id="services-grid-container">
+        <!-- Service Card 1 -->
+        <div class="service-card">
+          <div class="service-header">
+            <h3 class="service-name">UI/UX Design</h3>
+          </div>
+          <div class="service-body">
+            <img src="assets/service-uiux.png" alt="UI/UX design mobile screen mockups" class="service-img">
+            <a href="#contact" class="service-btn" aria-label="Learn more about UI/UX design">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="service-card">
+          <div class="service-header">
+            <h3 class="service-name">Web Design</h3>
+          </div>
+          <div class="service-body">
+            <img src="assets/service-web.png" alt="Web design layout mockup on laptop" class="service-img">
+            <a href="#contact" class="service-btn" aria-label="Learn more about Web design">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="service-card">
+          <div class="service-header">
+            <h3 class="service-name">App Design</h3>
+          </div>
+          <div class="service-body">
+            <img src="assets/service-app.png" alt="App design screen layout mockups" class="service-img">
+            <a href="#contact" class="service-btn" aria-label="Learn more about App design">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-indicators">
+        <span class="indicator active" data-index="0" role="button" aria-label="Go to service slide 1"></span>
+        <span class="indicator" data-index="1" role="button" aria-label="Go to service slide 2"></span>
+      </div>
+    </div>
+  </services-section>
+
+  <!-- Work Experience Section Component -->
+  <experience-section id="experience" class="section-padding">
+    <div class="container">
+      <h2 class="experience-title">My <span class="highlight">Work Experience</span></h2>
+
+      <div class="experience-timeline">
+        <!-- Timeline Item 1 -->
+        <div class="timeline-item active">
+          <div class="timeline-left">
+            <h3 class="timeline-company">SingleInterface</h3>
+            <span class="timeline-date">May 2024 - Present</span>
+          </div>
+          <div class="timeline-center">
+            <div class="timeline-node"></div>
+          </div>
+          <div class="timeline-right">
+            <h4 class="timeline-role">UI/UX Designer</h4>
+            <p class="timeline-desc">
+              Design intuitive web and mobile layouts, run competitive user research, design wireframes, and create high-fidelity design prototypes. Coordinate and align with developer engineering teams to guarantee designs are built exactly to guidelines.
+            </p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2 -->
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <h3 class="timeline-company">ShopClues.com</h3>
+            <span class="timeline-date">Feb 2021 - Feb 2023</span>
+          </div>
+          <div class="timeline-center">
+            <div class="timeline-node"></div>
+          </div>
+          <div class="timeline-right">
+            <h4 class="timeline-role">UI Designer</h4>
+            <p class="timeline-desc">
+              Designed ecommerce site features, marketing promotional banners, mobile landing pages, and interactive prototypes. Optimized customer purchase funnels and checkout experience, improving overall user conversions by 15%.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </experience-section>
+
+  <!-- Why Hire Me Section Component -->
+  <why-hire-me-section id="why-hire" class="section-padding">
+    <div class="container">
+      <div class="why-hire-wrapper">
+        <div class="why-hire-img-container">
+          <div class="why-hire-img-bg">
+            <img src="assets/why-hire-me-sunil.png" alt="Sunil smiling photo" class="why-hire-avatar">
+          </div>
+        </div>
+        
+        <div class="why-hire-content">
+          <h2 class="why-hire-title">Why <span class="highlight">Hire me</span>?</h2>
+          <p class="why-hire-desc">
+            I offer a unique blend of user-centered creative design and technical development awareness. This allows me to bridge the gap between abstract design concepts and robust live code, assuring your designs are clean, highly performant, and scale accurately.
+          </p>
+          
+          <div class="why-hire-stats">
+            <div class="hire-stat-card">
+              <span class="hire-stat-num">10+</span>
+              <span class="hire-stat-label">Projects Completed</span>
+            </div>
+            
+            <div class="hire-stat-card">
+              <span class="hire-stat-num">15+</span>
+              <span class="hire-stat-label">Clients & Product Designs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </why-hire-me-section>
+
+  <!-- Portfolio Section Component -->
+  <portfolio-section id="portfolio" class="section-padding">
+    <div class="container">
+      <div class="portfolio-header">
+        <h2 class="portfolio-title">Lets have a look at<br>my <span class="highlight">Portfolio</span></h2>
+        
+        <div class="portfolio-filters">
+          <button class="filter-pill active" data-filter="all" id="filter-all">Landing Page</button>
+          <button class="filter-pill" data-filter="product" id="filter-product">Product Design</button>
+          <button class="filter-pill" data-filter="animation" id="filter-animation">Animation</button>
+          <button class="filter-pill" data-filter="graphic" id="filter-graphic">Graphic Design</button>
+          <button class="filter-pill" data-filter="figma" id="filter-figma">Figma</button>
+        </div>
+      </div>
+
+      <!-- Project Showcase Area -->
+      <div class="portfolio-display-card" id="project-card">
+        <div class="portfolio-img-wrapper">
+          <img src="assets/project-pup.png" alt="PUP - Power On Demand App Screen Mockup" class="portfolio-project-img" id="project-img">
+        </div>
+        <div class="portfolio-project-content">
+          <h3 class="portfolio-project-title" id="project-title">PUP - Power On Demand</h3>
+          <p class="portfolio-project-desc" id="project-desc">
+            PUP is an on-demand mobile charging app solution for electric vehicles. It provides a simple checkout process where users can locate mobile fast charging vans on a map, book real-time charge slots, and monitor battery statistics directly in the application.
+          </p>
+          <a href="#contact" class="btn-primary" id="view-project-btn">
+            View Project
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="slider-indicators">
+        <span class="indicator active" data-index="0" role="button" aria-label="Go to project slide 1" id="project-ind-0"></span>
+        <span class="indicator" data-index="1" role="button" aria-label="Go to project slide 2" id="project-ind-1"></span>
+        <span class="indicator" data-index="2" role="button" aria-label="Go to project slide 3" id="project-ind-2"></span>
+      </div>
+    </div>
+  </portfolio-section>
+
+  <!-- Contact/Discussion Section Component -->
+  <contact-section id="contact" class="section-padding">
+    <div class="container">
+      <div class="contact-card">
+        <h2 class="contact-title">Have an Awsome Project Idea? <span class="highlight">Let’s Discuss</span></h2>
+        
+        <form class="contact-form" id="contact-form">
+          <div class="contact-input-wrapper">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <input type="email" placeholder="Enter Email Address" class="contact-input" id="email-address" required aria-label="Email Address">
+          </div>
+          <button type="submit" class="contact-submit-btn" id="email-submit">Send</button>
+        </form>
+
+        <div class="contact-features">
+          <div class="contact-feature-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>24/7 client support</span>
+          </div>
+          <div class="contact-feature-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>On-time delivery</span>
+          </div>
+          <div class="contact-feature-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Excellent product design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </contact-section>
+
+  <!-- Scrolling Marquee Banner -->
+  <marquee-banner>
+    <div class="marquee-container">
+      <div class="marquee-content">
+        UX Design + App Design + Dashboard + Wireframe + User Research + UX Design + App Design + Dashboard + Wireframe + User Research
+      </div>
+      <div class="marquee-content">
+        UX Design + App Design + Dashboard + Wireframe + User Research + UX Design + App Design + Dashboard + Wireframe + User Research
+      </div>
+    </div>
+  </marquee-banner>
+
+  <!-- Footer Component -->
+  <footer-section>
+    <div class="container">
+      <div class="footer-top">
+        <h2 class="footer-connect-title">Lets Connect there</h2>
+        <a href="#contact" class="btn-primary" id="footer-btn">
+          Hire me
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </a>
+      </div>
+
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="logo">Sk.<span>Design</span></div>
+          <p class="footer-desc">
+            Sunil is a skilled designer and developer creating pixel-perfect, highly performant interfaces that wow clients and drive sales conversions.
+          </p>
+          <div class="footer-socials">
+            <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn Profile" id="social-linkedin">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-btn" aria-label="Instagram Profile" id="social-instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener" class="social-btn" aria-label="Facebook Profile" id="social-facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h3 class="footer-col-title">Navigation</h3>
+          <ul class="footer-links">
+            <li><a href="#hero" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#services" class="footer-link">Services</a></li>
+            <li><a href="#experience" class="footer-link">Experience</a></li>
+            <li><a href="#portfolio" class="footer-link">Portfolio</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3 class="footer-col-title">Contact</h3>
+          <div class="footer-links">
+            <span class="footer-info-item">+91-9999999999</span>
+            <span class="footer-info-item">demoemail@gmail.com</span>
+            <span class="footer-info-item">New Delhi, India</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h3 class="footer-col-title">Get the latest Information</h3>
+          <form class="footer-newsletter" id="newsletter-form">
+            <input type="email" placeholder="Email Address" class="footer-newsletter-input" required id="newsletter-email" aria-label="Newsletter Email">
+            <button type="submit" class="footer-newsletter-btn" aria-label="Subscribe to newsletter" id="newsletter-submit">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; Copyright 2025 Sunil. All Rights Reserved</p>
+        <div class="footer-bottom-links">
+          <a href="#" class="footer-bottom-link">User Terms & Conditions</a>
+          <span>|</span>
+          <a href="#" class="footer-bottom-link">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer-section>
+
+  <script src="script.js"></script>
+</body>
+</html>
